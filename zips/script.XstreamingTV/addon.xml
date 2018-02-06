@@ -5,8 +5,7 @@
        provider-name="XstreamingTV">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
-	<import addon="script.module.requests" version="2.1.0"/>
-	<import addon="plugin.video.exodus"/>
+	<import addon="script.module.requests" version="2.1.0"/>>
 	<import addon="plugin.video.fncablebandw"/>
 	<import addon="plugin.video.XstreamingTV"/>
 	<import addon="script.speedtestnet"/>
