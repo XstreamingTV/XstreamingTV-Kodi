@@ -2,6 +2,7 @@
 <addon id="plugin.video.exodus" version="51.0.00" name="Internet VOD" provider-name="Xstreaming TV">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
+		<import addon="repository.XstreamingTV" />
 		<import addon="script.module.exodus" />
 		<import addon="script.exodus.artwork" version="1.0.0" />
 		<import addon="script.exodus.metadata" version="1.0.0" />
