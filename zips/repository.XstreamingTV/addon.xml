@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.XstreamingTV" name="XstreamingTV Repo" version="1.2" provider-name="XstreamingTV">
+	<extension point="xbmc.addon.repository" name="XstreamingTV Repository">
+		<info compressed="false">http://raw.github.com/XstreamingTV/XstreamingTV-Kodi/master/addons.xml</info>
+		<checksum>http://raw.github.com/XstreamingTV/XstreamingTV-Kodi/master/addons.xml.md5</checksum>
+		<datadir zip="true">http://raw.github.com/XstreamingTV/XstreamingTV-Kodi/master/zips</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>XstreamingTV Repo Repository</summary>
+		<description>U can Download and Install Official Addons of XstreamingTV Repo</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+

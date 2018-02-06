@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.XstreamingTV"
+       name="XstreamingTV Home"
+       version="2.0.0"
+       provider-name="XstreamingTV">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.requests" version="2.1.0"/>
+	<import addon="plugin.video.exodus"/>
+	<import addon="plugin.video.fncablebandw"/>
+	<import addon="plugin.video.XstreamingTV"/>
+	<import addon="script.speedtestnet"/>
+	<import addon="script.XstreamingTVguide"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="service.py" start="login"/>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary></summary>
+    <description>
+
+    </description>
+    <language></language>
+    <license></license>
+    <source></source>
+    <forum></forum>
+    <website></website>
+  </extension>
+</addon>
